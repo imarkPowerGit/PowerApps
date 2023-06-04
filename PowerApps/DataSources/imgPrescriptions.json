@@ -1,0 +1,98 @@
+[
+  {
+    "DisplayName": "imgPrescriptions (Views)",
+    "Name": "_cr171_imgprescription_views",
+    "RelatedEntityName": "imgPrescriptions",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "b9810c11-cdd2-4594-8e7b-e80fb1eb09e6": "Inactive imgPrescriptions",
+      "ca3c80e0-0679-4a04-b25c-6bba8b76328c": "imgPrescription  Lookup View",
+      "cb59814f-770c-4210-ada9-dd9560cfdf4d": "imgPrescription  Advanced Find View",
+      "dd165bda-b9aa-49cd-84c3-03efd57378a2": "Active imgPrescriptions",
+      "e84af7ab-f95f-4c79-8f4c-2e05d72b5860": "imgPrescription  Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (imgPrescriptions)",
+    "Name": "cr171_imgprescription_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "imgPrescriptions"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "imgPrescriptions",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (imgPrescriptions)",
+    "Name": "cr171_imgprescription_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "imgPrescriptions"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "imgPrescriptions",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr171_imgprescriptions",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr171_imgprescription",
+    "MaxGetRowsCount": 500,
+    "Name": "imgPrescriptions",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr171_attachment": "Attachment",
+      "cr171_attachmentid": "cr171_AttachmentId",
+      "cr171_imagename": "Image Name",
+      "cr171_imgprescription_AsyncOperations": "System Jobs",
+      "cr171_imgprescription_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr171_imgprescription_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr171_imgprescription_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr171_imgprescription_ProcessSession": "Process Sessions",
+      "cr171_imgprescription_SyncErrors": "Sync Errors",
+      "cr171_imgprescriptionid": "imgPrescription ",
+      "cr171_name": "Name",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "imgPrescriptions",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]
