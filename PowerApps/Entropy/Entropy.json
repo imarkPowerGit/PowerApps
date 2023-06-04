@@ -1,0 +1,104 @@
+{
+  "ComponentIndexes": {
+    "headerDoctorApp": 1,
+    "headerDoctorApp_1": 1
+  },
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "btnCamera": 11,
+    "Camera1": 9,
+    "camScreen": 7,
+    "headerDoctorApp": 4,
+    "headerDoctorApp_1": 8,
+    "Host": 3,
+    "Image1": 12,
+    "Image2": 5,
+    "Image3": 10,
+    "Label1": 6
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "06/04/2023 06:50:44",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "danphe": "d5f56744-6048-48c2-af63-4464347676eb.png",
+    "Wood Table": "48595494-ac9c-4ffc-bb6c-79308cf1ac28.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "danphe": "https://docserverpwaprodseas.blob.core.windows.net/bb22aa96-9f1e-4f67-8b2b-a50403f19270-1/resource/Assets0Images0d5f56744-6048-48c2-af63-4464347676eb.png?sv=2018-03-28&sr=b&sig=cmt4cAHDQ%2F3xf1cdGNcJwJgEQcowW1UvZaBNk1mOtUM%3D&spr=https&se=2023-06-05T06%3A40%3A16Z&sp=r",
+    "Wood Table": "https://docserverpwaprodseas.blob.core.windows.net/bb22aa96-9f1e-4f67-8b2b-a50403f19270-1/resource/Assets0Images048595494-ac9c-4ffc-bb6c-79308cf1ac28.jpg?sv=2018-03-28&sr=b&sig=raHvwT3y86HWkqS7%2B4ur%2FkoMKzD5Ve8hRr7bBVQMb%2BQ%3D&spr=https&se=2023-06-05T06%3A40%3A16Z&sp=r"
+  },
+  "OrderComponentMetadata": {
+    "ee3e27fb7b7444da9efc9c5477cc9414": 0
+  },
+  "OrderComponentTemplate": {
+    "ee3e27fb7b7444da9efc9c5477cc9414": 0
+  },
+  "OrderDataSource": {
+    "imgPrescriptions": 3,
+    "imgPrescriptions\\cr171_imgprescription_statecode": 0,
+    "imgPrescriptions\\cr171_imgprescription_statuscode": 1,
+    "imgPrescriptions\\default.cds_cr171_imgprescription_views": 2,
+    "photoCollection": 4
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 3,
+    "camera": 2,
+    "image": 0,
+    "label": 1
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "btnCamera": {},
+    "Camera1": {},
+    "camScreen": {},
+    "headerDoctorApp": {},
+    "headerDoctorApp_1": {},
+    "Host": {},
+    "Image1": {},
+    "Image2": {},
+    "Image3": {},
+    "Label1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "btnCamera": 4,
+    "Camera1": 1,
+    "camScreen": 0,
+    "headerDoctorApp": 0,
+    "headerDoctorApp_1": 0,
+    "Host": 0,
+    "Image1": 3,
+    "Image2": 5,
+    "Image3": 2,
+    "Label1": 6
+  },
+  "ResourcesJsonIndices": {
+    "Image-danphe": 2,
+    "Image-SampleImage": 0,
+    "Image-Wood Table": 1
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.082587,
+    "ControlCount": {
+      "button": 1,
+      "camera": 1,
+      "ee3e27fb7b7444da9efc9c5477cc9414": 2,
+      "image": 2,
+      "label": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 4.6551933
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}

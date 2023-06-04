@@ -1,0 +1,48 @@
+camScreen As screen:
+
+    btnCamera As button:
+        Height: =80
+        OnSelect: |-
+            =//This button capture the image viawebcamp and storeit in storage(share point..)
+            //Once image is capture in share point/Azure directory, image to text converter code. (can be found in ms site), 
+            
+            //Camera1.Photo;
+            Collect( imgPrescriptions, Camera1.Photo)
+            //UpdateContext({TakenPhoto:Camera1.Photo})
+            //Set(image,Camera1.Photo)
+        Size: =18
+        Text: ="Capture Photo"
+        Width: =235
+        X: =134
+        Y: =520
+        ZIndex: =3
+
+    headerDoctorApp_1 As headerDoctorApp:
+        ZIndex: =4
+
+    Camera1 As camera:
+        Camera: =0
+        OnSelect: |
+            =//Set(image,Camera1.Photo)
+            ClearCollect(photoCollection, Camera1.Photo)
+        X: =52
+        Y: =168
+        ZIndex: =5
+
+    Image3 As image:
+        Height: =352
+        Image: |
+            =First(photoCollection).Value
+        OnSelect: =
+        Width: =424
+        X: =698
+        Y: =182
+        ZIndex: =6
+
+    Image1 As image:
+        Height: =256
+        Width: =246
+        X: =741
+        Y: =182
+        ZIndex: =7
+
