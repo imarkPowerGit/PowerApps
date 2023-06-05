@@ -26,7 +26,7 @@ camScreen As screen:
         Text: ="Capture Photo"
         Width: =235
         X: =134
-        Y: =520
+        Y: =560
         ZIndex: =3
 
     headerDoctorApp_1 As headerDoctorApp:
@@ -38,7 +38,7 @@ camScreen As screen:
             =//Set(image,Camera1.Photo)
             ClearCollect(photoCollection, Camera1.Photo)
         X: =52
-        Y: =168
+        Y: =198
         ZIndex: =5
 
     Image3 As image:
