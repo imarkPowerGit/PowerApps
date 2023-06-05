@@ -2,14 +2,26 @@ camScreen As screen:
 
     btnCamera As button:
         Height: =80
-        OnSelect: |-
+        OnSelect: |
             =//This button capture the image viawebcamp and storeit in storage(share point..)
             //Once image is capture in share point/Azure directory, image to text converter code. (can be found in ms site), 
             
             //Camera1.Photo;
-            Collect( imgPrescriptions, Camera1.Photo)
+            //Collect( imgPrescriptions, Camera1.Photo)
             //UpdateContext({TakenPhoto:Camera1.Photo})
             //Set(image,Camera1.Photo)
+            ClearCollect(
+                ImageCollection,
+                {
+                    Title: "Image" & Text(Now(), "[$-en-US]yyyy-mm-dd-hh-mm-ss"),
+                    Image: Camera1.Photo
+                }
+            );
+            Patch(
+                '<SharePointListName>',
+                Defaults('<SharePointListName>'),
+                ImageCollection
+            )
         Size: =18
         Text: ="Capture Photo"
         Width: =235
@@ -38,11 +50,4 @@ camScreen As screen:
         X: =698
         Y: =182
         ZIndex: =6
-
-    Image1 As image:
-        Height: =256
-        Width: =246
-        X: =741
-        Y: =182
-        ZIndex: =7
 

@@ -58,7 +58,7 @@
         "Name": "Image2",
         "Parent": "headerDoctorApp",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 5,
+        "PublishOrderIndex": 4,
         "Rules": [
           {
             "Category": "Data",
@@ -357,7 +357,7 @@
         "Name": "Label1",
         "Parent": "headerDoctorApp",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 6,
+        "PublishOrderIndex": 5,
         "Rules": [
           {
             "Category": "Data",
@@ -640,7 +640,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638214567173775838",
+    "LastModifiedTimestamp": "638215272212533413",
     "Name": "headerDoctorApp",
     "Rules": [
       {
@@ -699,7 +699,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638214567173775838",
+  "LastModifiedTimestamp": "638215272212533413",
   "Name": "ee3e27fb7b7444da9efc9c5477cc9414",
   "OverridableProperties": {},
   "Version": "638213662276640407"
